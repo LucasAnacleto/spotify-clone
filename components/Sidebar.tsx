@@ -23,8 +23,6 @@ const Sidebar = ({ children, songs }: SidebarProps) => {
   const pathname = usePathname();
   const player = usePlayer();
 
-  console.log("teste")
-
   const routes = useMemo(() => [
     {
       icon: HiHome,
